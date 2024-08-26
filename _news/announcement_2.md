@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I attended the Swartz Foundation Annual Meeting hosted by the University of Washington, Seattle.
+I attended the Swartz Foundation Annual Meeting taking place at the University of Washington, Seattle.
