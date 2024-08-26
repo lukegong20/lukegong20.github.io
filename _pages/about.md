@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='#'>BME & Wu Tsai Institute, Yale University</a> 
 profile:
   align: right
-  image: 20220523084234.png
+  image: 20220523084234.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Room 1121A </p>
