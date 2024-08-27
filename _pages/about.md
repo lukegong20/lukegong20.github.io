@@ -9,8 +9,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Email: lulu.gong@yale.edu </p>
-    <p>Room 1121A, 100 College Street </p>
-    <p>New Haven, CT, 06510, USA</p>
+    <p>Address: 1121A, 100 College St, New Haven, CT, USA </p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
