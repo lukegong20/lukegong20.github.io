@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I moved to New Haven and started to work as a Swartz Fellow at Yale University.
+I moved to New Haven and joined [Dr. Shreya Saxena's group](https://www.saxenalab.org/) at Yale University as a Swartz Fellow.
