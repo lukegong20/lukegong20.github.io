@@ -8,8 +8,8 @@ profile:
   image: 20220523084234.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Room 1121A </p>
-    <p>100 College Street </p>
+    <p>Email: lulu.gong@yale.edu </p>
+    <p>Room 1121A, 100 College Street </p>
     <p>New Haven, CT, 06510, USA</p>
 
 news: true # includes a list of news items
