@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Biomedical Dept & Wu Tsai Institute, Yale University</a> 
+subtitle: <a href='#'>Department of Biomedical Engineering & Wu Tsai Institute, Yale University</a> 
 profile:
   align: right
   image: 20220523084234.jpg
