@@ -1,0 +1,73 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}">
+
+<div class="research-page{% if page.research %} research-detail{% endif %}">
+  {% if page.research %}
+  <nav class="research-breadcrumb" aria-label="Research navigation">
+    <a href="{{ '/projects/' | relative_url }}"><span aria-hidden="true">&larr;</span> All research projects</a>
+  </nav>
+  {% endif %}
+
+  <header class="research-header">
+    {% if page.topic %}<p class="research-eyebrow">{{ page.topic | escape }}</p>{% endif %}
+    <h1>{{ page.headline | default: page.title | escape }}</h1>
+    <p class="research-subtitle">{{ page.description | escape }}</p>
+    {% if page.research %}
+    <div class="research-header-meta">
+      <span class="research-label">{{ page.label | escape }}</span>
+      <a href="#resources">Papers and resources <span aria-hidden="true">&darr;</span></a>
+    </div>
+    {% endif %}
+  </header>
+
+  {% if page.overview %}<p class="research-overview">{{ page.overview | escape }}</p>{% endif %}
+
+  {% if page.research and page.img and page.img != empty %}
+  <figure class="research-figure">
+    <a href="{{ page.img | relative_url }}" aria-label="Open full-size figure: {{ page.image_alt | escape }}">
+      <img src="{{ page.img | relative_url }}" alt="{{ page.image_alt | escape }}" loading="eager">
+    </a>
+    <figcaption>{{ page.figure_caption | escape }}{% if page.figure_source_url and page.figure_source_url != empty %} <a href="{{ page.figure_source_url | escape }}">{{ page.figure_source_label | default: 'Source' | escape }}</a>{% endif %}</figcaption>
+  </figure>
+  {% endif %}
+
+  <div class="research-body">{{ content }}</div>
+
+  {% for figure in page.figures %}
+  {% if figure.image and figure.image != empty %}
+  <figure class="research-figure">
+    <a href="{{ figure.image | relative_url }}" aria-label="Open full-size figure: {{ figure.alt | escape }}">
+      <img src="{{ figure.image | relative_url }}" alt="{{ figure.alt | escape }}" loading="lazy">
+    </a>
+    <figcaption>{{ figure.caption | escape }}{% if figure.source_url and figure.source_url != empty %} <a href="{{ figure.source_url | escape }}">{{ figure.source_label | default: 'Source' | escape }}</a>{% endif %}</figcaption>
+  </figure>
+  {% endif %}
+  {% endfor %}
+
+  {% if page.research %}
+  <section class="research-resources" id="resources" aria-labelledby="resources-heading">
+    <h2 id="resources-heading">Papers and resources</h2>
+    {% if page.resources_note %}<p>{{ page.resources_note | escape }}</p>{% endif %}
+    {% if page.papers %}
+    <ol class="research-paper-list">
+      {% for paper in page.papers %}
+      <li class="research-paper">
+        <h3><a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a></h3>
+        <p class="research-paper-meta">{{ paper.authors | escape }}<br>{{ paper.venue | escape }}{% if paper.year %} &middot; {{ paper.year | escape }}{% endif %}{% if paper.kind %} &middot; {{ paper.kind | escape }}{% endif %}</p>
+        {% if paper.note %}<p class="research-paper-note">{{ paper.note | escape }}</p>{% endif %}
+        <div class="research-links">
+          <a href="{{ paper.url | escape }}">{% if paper.kind == 'Preprint' %}Read preprint{% else %}Read paper{% endif %}<span class="research-sr-only">: {{ paper.title | escape }}</span> <span aria-hidden="true">&nearr;</span></a>
+          {% if paper.pdf %}<a href="{{ paper.pdf | relative_url }}">PDF<span class="research-sr-only">: {{ paper.title | escape }}</span></a>{% endif %}
+          {% if paper.preprint %}<a href="{{ paper.preprint | escape }}">Preprint<span class="research-sr-only">: {{ paper.title | escape }}</span></a>{% endif %}
+          {% if paper.code %}<a href="{{ paper.code | escape }}">Code<span class="research-sr-only">: {{ paper.title | escape }}</span></a>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+    {% endif %}
+  </section>
+  <p class="research-return"><a href="{{ '/projects/' | relative_url }}">Explore all research projects <span aria-hidden="true">&rarr;</span></a></p>
+  {% endif %}
+</div>
