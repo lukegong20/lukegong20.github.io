@@ -26,6 +26,14 @@ figures:
 overview: >-
   When interacting processes change one another, feedback can stabilize a system or produce persistent oscillations. During my PhD at the University of Groningen, I studied these questions in eco-evolutionary systems, where population behavior and environmental resources co-evolve. Evolutionary game theory, bifurcation analysis, and control provided a way to connect the structure of this feedback to its long-term consequences.
 papers:
+   
+
+  - title=Strong anti-Hebbian plasticity alters the convexity of network attractor landscapes
+    authors: Lulu Gong and Xudong Chen and ShiNung Ching
+    year: 2025
+    url: https://ieeexplore.ieee.org/document/10981480
+    note: Bifurcation analysis of neural-synpatic recurrent network dynamics
+    
   - title: Limit cycles analysis and control of evolutionary game dynamics with environmental feedback
     authors: Lulu Gong, Weijia Yao, Jian Gao, and Ming Cao
     venue: Automatica, 145, 110536
@@ -33,7 +41,7 @@ papers:
     url: https://doi.org/10.1016/j.automatica.2022.110536
     pdf: /assets/pdf/1-s2.0-S0005109822003971-main.pdf
     preprint: https://arxiv.org/abs/2205.10734
-    note: Main paper. Bifurcation analysis of replicator–mutator dynamics with environmental feedback, stable limit cycles, and incentive-based control.
+    note: Bifurcation analysis of replicator–mutator dynamics with environmental feedback, stable limit cycles, and incentive-based control.
   - title: Different Environment Feedback in Fast-Slow Eco-Evolutionary Dynamics and Resulting Limit Cycles
     authors: Lulu Gong and Ming Cao
     venue: IEEE Control Systems Letters, 6, 1184–1189
