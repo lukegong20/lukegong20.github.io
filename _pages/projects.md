@@ -24,7 +24,7 @@ research_sections:
     description: Statistical learning and system identification uncover dynamical structure across trials and conditions, infer changes between regimes, and estimate latent timescales.
 ---
 
-<p class="research-intro">My research combines nonlinear dynamics and control theory, mechanistic modeling, and statistical machine learning to understand complex biological systems. I study how feedback shapes collective behavior, how neuron–astrocyte interactions support adaptive computation, and how neural population recordings reveal dynamical structure across modes and timescales. Together, these directions connect mathematical analysis with models that explain biological mechanisms and methods that learn interpretable dynamics from data.</p>
+<p class="research-intro">My research combines nonlinear dynamics and control theory, mechanistic modeling, and statistical machine learning to understand complex neural and biological systems.</p>
 
 <nav class="research-perspectives" aria-label="Research perspectives">
   {%- for perspective in page.research_sections -%}
