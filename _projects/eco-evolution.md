@@ -28,15 +28,16 @@ overview: >-
 papers:
    
 
-  - title=Strong anti-Hebbian plasticity alters the convexity of network attractor landscapes
+  - title: Strong anti-Hebbian plasticity alters the convexity of network attractor landscapes
     authors: Lulu Gong and Xudong Chen and ShiNung Ching
+    venue: IEEE Transactions on Neural Networks and Learning Systems
     year: 2025
     url: https://ieeexplore.ieee.org/document/10981480
     note: Bifurcation analysis of neural-synpatic recurrent network dynamics
     
   - title: Limit cycles analysis and control of evolutionary game dynamics with environmental feedback
     authors: Lulu Gong, Weijia Yao, Jian Gao, and Ming Cao
-    venue: Automatica, 145, 110536
+    venue: Automatica
     year: 2022
     url: https://doi.org/10.1016/j.automatica.2022.110536
     pdf: /assets/pdf/1-s2.0-S0005109822003971-main.pdf
@@ -44,25 +45,25 @@ papers:
     note: Bifurcation analysis of replicator–mutator dynamics with environmental feedback, stable limit cycles, and incentive-based control.
   - title: Different Environment Feedback in Fast-Slow Eco-Evolutionary Dynamics and Resulting Limit Cycles
     authors: Lulu Gong and Ming Cao
-    venue: IEEE Control Systems Letters, 6, 1184–1189
+    venue: IEEE Control Systems Letters
     year: 2022
     url: https://doi.org/10.1109/LCSYS.2021.3089989
     preprint: https://arxiv.org/abs/2105.04659
     note: How different resource feedback mechanisms shape oscillatory dynamics. Published online in 2021.
   - title: Limit Cycles in Replicator-Mutator Dynamics with Game-Environment Feedback
     authors: Lulu Gong, Weijia Yao, Jian Gao, and Ming Cao
-    venue: IFAC-PapersOnLine, 53(2), 2850–2855
+    venue: IFAC-PapersOnLine
     year: 2020
     url: https://doi.org/10.1016/j.ifacol.2020.12.955
   - title: Evolutionary Dynamics of Two Communities Under Environmental Feedback
     authors: Yu Kawano, Lulu Gong, Brian D. O. Anderson, and Ming Cao
-    venue: IEEE Control Systems Letters, 3(2), 254–259
+    venue: IEEE Control Systems Letters
     year: 2019
     url: https://doi.org/10.1109/LCSYS.2018.2866775
     note: Published online in 2018.
   - title: Evolutionary Game Dynamics for Two Interacting Populations in a Co-evolving Environment
     authors: Lulu Gong, Jian Gao, and Ming Cao
-    venue: IEEE Conference on Decision and Control, 3535–3540
+    venue: IEEE Conference on Decision and Control
     year: 2018
     url: https://doi.org/10.1109/CDC.2018.8619801
     preprint: https://arxiv.org/abs/1806.03194
