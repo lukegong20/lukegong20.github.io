@@ -16,15 +16,15 @@ research_sections:
     title: Computational models of adaptive computation in neuron–astrocyte networks
     nav_title: Neuron–astrocyte computation
     question: How do interactions among neurons, synapses, and astrocytes support learning and decision-making across timescales?
-    description: Mechanistic modeling and dynamical systems analysis connect neural–glial interactions to context-dependent computation and adaptive behavior.
+    description: Computational modeling and dynamical systems analysis connect neural-glial interactions to context-dependent computation and adaptive behavior in decision-making.
   - id: dynamics-from-data
     title: Learning and inference from neural population data across modes and timescales
     nav_title: Neural modes and timescales
-    question: How can neural population recordings reveal distinct dynamical components and coexisting fast and slow modes?
+    question: How can neural population recordings reveal distinct dynamical components and coexisting muti-timescale modes?
     description: Statistical learning and system identification uncover dynamical structure across trials and conditions, infer changes between regimes, and estimate latent timescales.
 ---
 
-<p class="research-intro">My research combines nonlinear dynamics and control theory, mechanistic modeling, and statistical learning to understand complex biological systems. I study how feedback shapes collective behavior, how neuron–astrocyte interactions support adaptive computation, and how neural population recordings reveal dynamical structure across modes and timescales. Together, these directions connect mathematical analysis with models that explain biological mechanisms and methods that learn interpretable dynamics from data.</p>
+<p class="research-intro">My research combines nonlinear dynamics and control theory, mechanistic modeling, and statistical machine learning to understand complex biological systems. I study how feedback shapes collective behavior, how neuron–astrocyte interactions support adaptive computation, and how neural population recordings reveal dynamical structure across modes and timescales. Together, these directions connect mathematical analysis with models that explain biological mechanisms and methods that learn interpretable dynamics from data.</p>
 
 <nav class="research-perspectives" aria-label="Research perspectives">
   {%- for perspective in page.research_sections -%}
